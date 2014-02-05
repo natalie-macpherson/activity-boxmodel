@@ -58,20 +58,22 @@ article {
 }
 
 blockquote {
-    margin:0 0 2rem;
+    margin: 0 0 2rem 15%;
     font-family:Garmaond,fenwick-1,sans-serif;
-    font-size: 14px;
-    line-height: 21px;
-    letter-spacing: -1px;
-    background: no-repeat 0, .25rem;
-    background-image: url(http://www.brainpickings.org/wp-content/themes/brainpickings_p2h/images/bg-blockquote.gif); /* got icon from thsi website.  They used it in thier design.  I just wanted to try and see if I can do it */
-    background-position:top left;
-    background-size: 3rem;    
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: initial;
+    font-size: .9rem;
+    line-height: 1.5rem;
+    letter-spacing: -.05rem;
 }
+
+blockquote:before {
+    display: block;
+    float: left;
+    content: "“";
+    font-size: 6rem;
+    margin: 1.75rem 0 0 -18%;
+}
+
+
 
 h1 {
     margin: 1.5rem 0;
